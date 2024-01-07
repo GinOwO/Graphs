@@ -1,0 +1,77 @@
+{
+    "1020": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Array",
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Matrix"
+        ],
+        "Title": "Number of Enclaves",
+        "TitleSlug": "number-of-enclaves",
+        "URI": "./Connected Components/1020.numberOfEnclaves.cpp"
+    },
+    "130": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Array",
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Matrix"
+        ],
+        "Title": "Surrounded Regions",
+        "TitleSlug": "surrounded-regions",
+        "URI": "./Connected Components/130.surroundedRegions.cpp"
+    },
+    "542": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Array",
+            "Dynamic Programming",
+            "Breadth-First Search",
+            "Matrix"
+        ],
+        "Title": "01 Matrix",
+        "TitleSlug": "01-matrix",
+        "URI": "./Connected Components/542.01Matrix.cpp"
+    },
+    "547": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Graph"
+        ],
+        "Title": "Number of Provinces",
+        "TitleSlug": "number-of-provinces",
+        "URI": "./Connected Components/547.numberOfProvinces.cpp"
+    },
+    "733": {
+        "Difficulty": "Easy",
+        "Tags": [
+            "Array",
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Matrix"
+        ],
+        "Title": "Flood Fill",
+        "TitleSlug": "flood-fill",
+        "URI": "./Connected Components/733.floodFill.cpp"
+    },
+    "994": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Array",
+            "Breadth-First Search",
+            "Matrix"
+        ],
+        "Title": "Rotting Oranges",
+        "TitleSlug": "rotting-oranges",
+        "URI": "./Connected Components/994.rottingOranges.cpp"
+    },
+    "NLC": [],
+    "built on": "2024-01-07 19:20:48.759304"
+}
