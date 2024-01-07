@@ -2,6 +2,28 @@
 
 using namespace std;
 
+/*
+    Leetcode 130 - Surrounded Regions
+        Given a grid of 'X's and 'O's, flip all the 'O's that are surrounded by 'X's to 'X'.
+        A 'O' is surrounded by 'X' if it is not on the boundary and all the adjacent cells are 'X'.
+
+        Example:
+            [['X','X','X','X'],
+             ['X','O','O','X'],
+             ['X','X','O','X'],
+             ['X','O','X','X']]
+            ans = [['X','X','X','X'],
+                   ['X','X','X','X'],
+                   ['X','X','X','X'],
+                   ['X','O','X','X']]
+
+        We do a DFS from all the boundary 'O's. If we encounter a 'O', then we mark it in the visited matrix.
+
+        Finally, we change all the 'O's that are not visited to 'X'.
+
+        Time: O(n*m), Space: O(n*m)
+*/
+
 #define isValid(i,j,m,n) (i>=0 && i<m && j>=0 && j<n)
 
 constexpr int
