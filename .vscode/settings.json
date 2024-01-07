@@ -93,5 +93,5 @@
         "variant": "cpp",
         "stdio.h": "c"
     },
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
 }
