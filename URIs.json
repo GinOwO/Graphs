@@ -61,6 +61,30 @@
         "TitleSlug": "flood-fill",
         "URI": "./Connected Components/733.floodFill.cpp"
     },
+    "785": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Graph"
+        ],
+        "Title": "Is Graph Bipartite?",
+        "TitleSlug": "is-graph-bipartite",
+        "URI": "./Coloring/785.bipartite.cpp"
+    },
+    "802": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Graph",
+            "Topological Sort"
+        ],
+        "Title": "Find Eventual Safe States",
+        "TitleSlug": "find-eventual-safe-states",
+        "URI": "./Topological/802.findEventualSafeStates.cpp"
+    },
     "994": {
         "Difficulty": "Medium",
         "Tags": [
@@ -73,5 +97,5 @@
         "URI": "./Connected Components/994.rottingOranges.cpp"
     },
     "NLC": [],
-    "built on": "2024-01-07 19:20:48.759304"
+    "built on": "2024-01-08 18:24:23.997388"
 }
