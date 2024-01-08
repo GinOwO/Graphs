@@ -263,7 +263,7 @@ function createCategories() {
         nv += makeNavbar(categories[category], c);
     }
     nv += `<li class="nav-item" id="built-on">
-    <a href="https://github.com/ginOwO/DP" class="nav-link">
+    <a href="https://github.com/ginOwO${pathPrefix}" class="nav-link">
     <span class="nav-link-text" id="github-url">Built On:<br />${buildDate}</span>
     </a>
     </li>`;
