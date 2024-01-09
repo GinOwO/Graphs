@@ -25,6 +25,30 @@
         "TitleSlug": "surrounded-regions",
         "URI": "./Connected Components/130.surroundedRegions.cpp"
     },
+    "207": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Graph",
+            "Topological Sort"
+        ],
+        "Title": "Course Schedule",
+        "TitleSlug": "course-schedule",
+        "URI": "./Topological/207.courseSchedule.cpp"
+    },
+    "210": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Graph",
+            "Topological Sort"
+        ],
+        "Title": "Course Schedule II",
+        "TitleSlug": "course-schedule-ii",
+        "URI": "./Topological/210.courseSchedule2.cpp"
+    },
     "542": {
         "Difficulty": "Medium",
         "Tags": [
@@ -97,5 +121,5 @@
         "URI": "./Connected Components/994.rottingOranges.cpp"
     },
     "NLC": [],
-    "built on": "2024-01-08 18:31:35.594845"
+    "built on": "2024-01-09 19:10:03.702789"
 }
