@@ -25,12 +25,12 @@ class Solution {
 
         path[i] = visited[i] = 1;
 
-        for (auto& v : graph[i]) {
-            if (visited[v] && safe[v]) continue;
-            else if (!visited[v]) {
-                if (dfs(graph, v, visited, path, safe)) return true;
+        for ( auto& v : graph[i] ) {
+            if ( visited[v] && safe[v] ) continue;
+            else if ( !visited[v] ) {
+                if ( dfs(graph, v, visited, path, safe) ) return true;
             }
-            else if (path[v]) {
+            else if ( path[v] ) {
                 return true;
             }
         }
@@ -46,14 +46,14 @@ public:
         vector<bool> safe(n, 0), visited(n, 0), path(n, 0);
         vector<int> ans;
 
-        for (int i = 0; i < n; i++) {
-            if (visited[i] == 0) {
+        for ( int i = 0; i < n; i++ ) {
+            if ( visited[i] == 0 ) {
                 dfs(graph, i, visited, path, safe);
             }
         }
 
-        for (int i = 0; i < n; i++) {
-            if (safe[i]) ans.push_back(i);
+        for ( int i = 0; i < n; i++ ) {
+            if ( safe[i] ) ans.push_back(i);
         }
 
         return ans;
@@ -64,7 +64,7 @@ int main() {
     Solution s;
     vector<vector<int>> graph = { {1,2},{2,3},{5},{0},{5},{},{} };
     vector<int> ans = s.eventualSafeNodes(graph);
-    for (auto& x : ans) cout << x << " ";
+    for ( auto& x : ans ) cout << x << " ";
     cout << endl;
     return 0;
 }

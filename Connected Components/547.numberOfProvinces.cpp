@@ -16,16 +16,16 @@ class Solution {
 public:
     void DFS(int k, const vector<vector<int>>& graph, vector<bool>& visited) {
         visited[k] = 1;
-        for (int i = 0; i < graph[k].size(); i++)
-            if (graph[k][i] && !visited[i]) DFS(i, graph, visited);
+        for ( int i = 0; i < graph[k].size(); i++ )
+            if ( graph[k][i] && !visited[i] ) DFS(i, graph, visited);
     }
 
     int findCircleNum(vector<vector<int>>& isConnected) {
         const int n = isConnected.size();
         vector<bool> visited(n, 0); int cnt = 0;
 
-        for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
+        for ( int i = 0; i < n; i++ ) {
+            if ( !visited[i] ) {
                 DFS(i, isConnected, visited);
                 cnt++;
             }

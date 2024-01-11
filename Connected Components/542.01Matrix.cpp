@@ -48,25 +48,25 @@ public:
         vector<vector<int>> dist(m, vector<int>(n, 0));
         queue<Cell> que;
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (mat[i][j] == 0) {
+        for ( int i = 0; i < m; i++ ) {
+            for ( int j = 0; j < n; j++ ) {
+                if ( mat[i][j] == 0 ) {
                     que.push({ i,j,0 });
                     visited[i][j] = 1;
                 }
             }
         }
 
-        while (!que.empty()) {
+        while ( !que.empty() ) {
             a = que.front().x;
             b = que.front().y;
             d = que.front().d;
             que.pop();
             dist[a][b] = d;
 
-            for (int k = 0; k < 4; k++) {
+            for ( int k = 0; k < 4; k++ ) {
                 int i = a + rows[k], j = b + cols[k];
-                if (isValid(i, j, m, n) && mat[i][j] && !visited[i][j]) {
+                if ( isValid(i, j, m, n) && mat[i][j] && !visited[i][j] ) {
                     visited[i][j] = 1;
                     que.push({ i,j,d + 1 });
                 }
@@ -82,8 +82,8 @@ int main() {
     vector<vector<int>> mat = { {0,0,0},{0,1,0},{1,1,1} };
     vector<vector<int>> ans = s.updateMatrix(mat);
 
-    for (auto& a : ans) {
-        for (auto& b : a) cout << b << " ";
+    for ( auto& a : ans ) {
+        for ( auto& b : a ) cout << b << " ";
         cout << endl;
     }
     return 0;

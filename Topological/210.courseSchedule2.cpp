@@ -22,30 +22,30 @@ public:
         vector<int> inDegree(n, 0), ans;
         queue<int> que;
 
-        for (int i = 0; i < n; i++) {
-            for (auto& v : graph[i]) inDegree[v]++;
+        for ( int i = 0; i < n; i++ ) {
+            for ( auto& v : graph[i] ) inDegree[v]++;
         }
 
-        for (int i = 0; i < n; i++) {
-            if (!inDegree[i]) que.push(i);
+        for ( int i = 0; i < n; i++ ) {
+            if ( !inDegree[i] ) que.push(i);
         }
 
-        while (!que.empty()) {
+        while ( !que.empty() ) {
             int curr = que.front();
             que.pop();
             ans.push_back(curr);
 
-            for (auto& v : graph[curr]) {
-                if (--inDegree[v] == 0) que.push(v);
+            for ( auto& v : graph[curr] ) {
+                if ( --inDegree[v] == 0 ) que.push(v);
             }
         }
-        if (ans.size() != n) return {};
+        if ( ans.size() != n ) return {};
         return ans;
     }
 
     vector<int> findOrder(int n, vector<vector<int>>& prerequisites) {
         vector<vector<int>> graph(n, vector<int>{});
-        for (auto& a : prerequisites) {
+        for ( auto& a : prerequisites ) {
             graph[a[1]].push_back(a[0]);
         }
         return kahnTopoSort(n, graph);
@@ -54,9 +54,9 @@ public:
 
 int main() {
     Solution s;
-    vector<vector<int>> prerequisites{ {1,0},{0,1} };
+    vector<vector<int>> prerequisites { {1,0},{0,1} };
     vector<int> ans = s.findOrder(2, prerequisites);
-    for (auto& a : ans) cout << a << " ";
+    for ( auto& a : ans ) cout << a << " ";
     cout << endl;
     return 0;
 }
