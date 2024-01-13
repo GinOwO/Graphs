@@ -89,7 +89,9 @@ const badges = {
     "Brute Force": `<img alt="Brute Force " src="https://img.shields.io/badge/-Brute%20Force-4a5759.svg?style=for-the-badge">`,
     "Eulerian Circuit": `<img alt="Eulerian Circuit " src="https://img.shields.io/badge/-Eulerian%20Circuit-780000.svg?style=for-the-badge">`,
     NLC: `<img alt="Non Leetcode " src="https://img.shields.io/badge/-Non%20Leetcode-71f45b.svg?style=for-the-badge">`,
-    "Union Find": `<img alt="Union Find " src="https://img.shields.io/badge/-Union%20Find-6f9b42.svg?style=for-the-badge">`
+    "Union Find": `<img alt="Union Find " src="https://img.shields.io/badge/-Union%20Find-6f9b42.svg?style=for-the-badge">`,
+    "Topological Sort": `<img alt="Topological Sort " src="https://img.shields.io/badge/-Topological%20Sort-009b42.svg?style=for-the-badge">`,
+    "Shortest Path": `<img alt="Shortest Path " src="https://img.shields.io/badge/-Shortest%20Path-ff0042.svg?style=for-the-badge">`,
 };
 
 /**
