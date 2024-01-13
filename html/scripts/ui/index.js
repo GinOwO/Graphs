@@ -92,6 +92,7 @@ const badges = {
     "Union Find": `<img alt="Union Find " src="https://img.shields.io/badge/-Union%20Find-6f9b42.svg?style=for-the-badge">`,
     "Topological Sort": `<img alt="Topological Sort " src="https://img.shields.io/badge/-Topological%20Sort-009b42.svg?style=for-the-badge">`,
     "Shortest Path": `<img alt="Shortest Path " src="https://img.shields.io/badge/-Shortest%20Path-ff0042.svg?style=for-the-badge">`,
+    "Heap (Priority Queue)": `<img alt="Heap (Priority Queue) " src="https://img.shields.io/badge/-Heap%20(Priority%20Queue)-ff4200.svg?style=for-the-badge">`,
 };
 
 /**
