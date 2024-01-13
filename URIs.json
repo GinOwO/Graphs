@@ -87,6 +87,19 @@
         "TitleSlug": "course-schedule-ii",
         "URI": "./Topological/210.courseSchedule2.cpp"
     },
+    "2812": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Array",
+            "Binary Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Matrix"
+        ],
+        "Title": "Find the Safest Path in a Grid",
+        "TitleSlug": "find-the-safest-path-in-a-grid",
+        "URI": "./Path Finding/2812.findSafestPathInGrid.cpp"
+    },
     "310": {
         "Difficulty": "Medium",
         "Tags": [
@@ -146,6 +159,19 @@
         "TitleSlug": "flood-fill",
         "URI": "./Connected Components/733.floodFill.cpp"
     },
+    "743": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Graph",
+            "Heap (Priority Queue)",
+            "Shortest Path"
+        ],
+        "Title": "Network Delay Time",
+        "TitleSlug": "network-delay-time",
+        "URI": "./Path Finding/743.networkDelay.cpp"
+    },
     "778": {
         "Difficulty": "Hard",
         "Tags": [
@@ -173,6 +199,20 @@
         "TitleSlug": "is-graph-bipartite",
         "URI": "./Coloring/785.bipartite.cpp"
     },
+    "787": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Dynamic Programming",
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Graph",
+            "Heap (Priority Queue)",
+            "Shortest Path"
+        ],
+        "Title": "Cheapest Flights Within K Stops",
+        "TitleSlug": "cheapest-flights-within-k-stops",
+        "URI": "./Path Finding/787.cheapestFlightsWithKSteps.cpp"
+    },
     "802": {
         "Difficulty": "Medium",
         "Tags": [
@@ -197,5 +237,5 @@
         "URI": "./Connected Components/994.rottingOranges.cpp"
     },
     "NLC": [],
-    "built on": "2024-01-13 16:41:56.097149"
+    "built on": "2024-01-13 20:29:44.993760"
 }
