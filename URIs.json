@@ -87,6 +87,18 @@
         "TitleSlug": "course-schedule-ii",
         "URI": "./Topological/210.courseSchedule2.cpp"
     },
+    "2642": {
+        "Difficulty": "Hard",
+        "Tags": [
+            "Graph",
+            "Design",
+            "Heap (Priority Queue)",
+            "Shortest Path"
+        ],
+        "Title": "Design Graph With Shortest Path Calculator",
+        "TitleSlug": "design-graph-with-shortest-path-calculator",
+        "URI": "./Path Finding/2642.designGraphWithShortestPathCalculator.cpp"
+    },
     "2812": {
         "Difficulty": "Medium",
         "Tags": [
@@ -237,5 +249,5 @@
         "URI": "./Connected Components/994.rottingOranges.cpp"
     },
     "NLC": [],
-    "built on": "2024-01-13 20:29:44.993760"
+    "built on": "2024-01-13 20:32:21.020232"
 }
