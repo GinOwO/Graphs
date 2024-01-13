@@ -12,6 +12,18 @@
         "TitleSlug": "number-of-enclaves",
         "URI": "./Connected Components/1020.numberOfEnclaves.cpp"
     },
+    "126": {
+        "Difficulty": "Hard",
+        "Tags": [
+            "Hash Table",
+            "String",
+            "Backtracking",
+            "Breadth-First Search"
+        ],
+        "Title": "Word Ladder II",
+        "TitleSlug": "word-ladder-ii",
+        "URI": "./Path Finding/126.wordLadder2.cpp"
+    },
     "127": {
         "Difficulty": "Hard",
         "Tags": [
@@ -59,6 +71,17 @@
         "Title": "Course Schedule II",
         "TitleSlug": "course-schedule-ii",
         "URI": "./Topological/210.courseSchedule2.cpp"
+    },
+    "433": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Hash Table",
+            "String",
+            "Breadth-First Search"
+        ],
+        "Title": "Minimum Genetic Mutation",
+        "TitleSlug": "minimum-genetic-mutation",
+        "URI": "./Path Finding/433.minimumGeneticMutation.cpp"
     },
     "542": {
         "Difficulty": "Medium",
@@ -132,5 +155,5 @@
         "URI": "./Connected Components/994.rottingOranges.cpp"
     },
     "NLC": [],
-    "built on": "2024-01-11 18:57:42.118007"
+    "built on": "2024-01-13 12:24:53.003776"
 }
