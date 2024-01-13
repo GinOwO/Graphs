@@ -48,6 +48,21 @@
         "TitleSlug": "surrounded-regions",
         "URI": "./Connected Components/130.surroundedRegions.cpp"
     },
+    "1631": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Array",
+            "Binary Search",
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Heap (Priority Queue)",
+            "Matrix"
+        ],
+        "Title": "Path With Minimum Effort",
+        "TitleSlug": "path-with-minimum-effort",
+        "URI": "./Path Finding/1631.pathWithMinimumEffort.cpp"
+    },
     "207": {
         "Difficulty": "Medium",
         "Tags": [
@@ -71,6 +86,18 @@
         "Title": "Course Schedule II",
         "TitleSlug": "course-schedule-ii",
         "URI": "./Topological/210.courseSchedule2.cpp"
+    },
+    "310": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Graph",
+            "Topological Sort"
+        ],
+        "Title": "Minimum Height Trees",
+        "TitleSlug": "minimum-height-trees",
+        "URI": "./Path Finding/310.shortestPathBinaryMatrix.cpp"
     },
     "433": {
         "Difficulty": "Medium",
@@ -119,6 +146,21 @@
         "TitleSlug": "flood-fill",
         "URI": "./Connected Components/733.floodFill.cpp"
     },
+    "778": {
+        "Difficulty": "Hard",
+        "Tags": [
+            "Array",
+            "Binary Search",
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Heap (Priority Queue)",
+            "Matrix"
+        ],
+        "Title": "Swim in Rising Water",
+        "TitleSlug": "swim-in-rising-water",
+        "URI": "./Path Finding/778.swimInRisingWater.cpp"
+    },
     "785": {
         "Difficulty": "Medium",
         "Tags": [
@@ -155,5 +197,5 @@
         "URI": "./Connected Components/994.rottingOranges.cpp"
     },
     "NLC": [],
-    "built on": "2024-01-13 12:24:53.003776"
+    "built on": "2024-01-13 16:41:56.097149"
 }
