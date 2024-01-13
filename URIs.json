@@ -63,6 +63,18 @@
         "TitleSlug": "path-with-minimum-effort",
         "URI": "./Path Finding/1631.pathWithMinimumEffort.cpp"
     },
+    "1976": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Dynamic Programming",
+            "Graph",
+            "Topological Sort",
+            "Shortest Path"
+        ],
+        "Title": "Number of Ways to Arrive at Destination",
+        "TitleSlug": "number-of-ways-to-arrive-at-destination",
+        "URI": "./Path Finding/1976.numberOfWaysToArriveAtDestination.cpp"
+    },
     "207": {
         "Difficulty": "Medium",
         "Tags": [
@@ -249,5 +261,5 @@
         "URI": "./Connected Components/994.rottingOranges.cpp"
     },
     "NLC": [],
-    "built on": "2024-01-13 20:32:21.020232"
+    "built on": "2024-01-13 21:10:59.981968"
 }
