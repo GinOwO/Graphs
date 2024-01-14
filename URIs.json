@@ -194,6 +194,21 @@
         "TitleSlug": "number-of-provinces",
         "URI": "./Connected Components/547.numberOfProvinces.cpp"
     },
+    "721": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Array",
+            "Hash Table",
+            "String",
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Sorting"
+        ],
+        "Title": "Accounts Merge",
+        "TitleSlug": "accounts-merge",
+        "URI": "./Connected Components/721.accountsMerge.cpp"
+    },
     "733": {
         "Difficulty": "Easy",
         "Tags": [
@@ -272,6 +287,18 @@
         "TitleSlug": "find-eventual-safe-states",
         "URI": "./Topological/802.findEventualSafeStates.cpp"
     },
+    "947": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Hash Table",
+            "Depth-First Search",
+            "Union Find",
+            "Graph"
+        ],
+        "Title": "Most Stones Removed with Same Row or Column",
+        "TitleSlug": "most-stones-removed-with-same-row-or-column",
+        "URI": "./Connected Components/947.mostStonesRemoved.cpp"
+    },
     "994": {
         "Difficulty": "Medium",
         "Tags": [
@@ -291,5 +318,5 @@
             "URI": "./Connected Components/NLC.547.numberOfProvinces.cpp"
         }
     ],
-    "built on": "2024-01-14 12:48:58.421584"
+    "built on": "2024-01-14 19:05:27.389470"
 }
