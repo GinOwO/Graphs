@@ -48,6 +48,18 @@
         "TitleSlug": "surrounded-regions",
         "URI": "./Connected Components/130.surroundedRegions.cpp"
     },
+    "1319": {
+        "Difficulty": "Medium",
+        "Tags": [
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Graph"
+        ],
+        "Title": "Number of Operations to Make Network Connected",
+        "TitleSlug": "number-of-operations-to-make-network-connected",
+        "URI": "./Connected Components/1319.operationsToMakeNetworkConnected.cpp"
+    },
     "1334": {
         "Difficulty": "Medium",
         "Tags": [
@@ -271,6 +283,13 @@
         "TitleSlug": "rotting-oranges",
         "URI": "./Connected Components/994.rottingOranges.cpp"
     },
-    "NLC": [],
-    "built on": "2024-01-14 08:31:45.712779"
+    "NLC": [
+        {
+            "Difficulty": "NA",
+            "Tags": [],
+            "Title": "numberOfProvinces",
+            "URI": "./Connected Components/NLC.547.numberOfProvinces.cpp"
+        }
+    ],
+    "built on": "2024-01-14 12:48:58.421584"
 }
