@@ -9,6 +9,8 @@ using namespace std;
         Once its done, find the next index of visited that is false and repeat.
         The number of times you need to find the next index of visited that is false is the answer.
 
+        A better solution is to use a DSU to find the number of connected components, which is provided in NLC.
+
         Time Complexity: O(n^2), Space Complexity: O(n)
 */
 
