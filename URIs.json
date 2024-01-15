@@ -12,6 +12,17 @@
         "TitleSlug": "number-of-enclaves",
         "URI": "./Connected Components/1020.numberOfEnclaves.cpp"
     },
+    "1192": {
+        "Difficulty": "Hard",
+        "Tags": [
+            "Depth-First Search",
+            "Graph",
+            "Biconnected Component"
+        ],
+        "Title": "Critical Connections in a Network",
+        "TitleSlug": "critical-connections-in-a-network",
+        "URI": "./Connected Components/1192.criticalConnectionsInNetwork.cpp"
+    },
     "126": {
         "Difficulty": "Hard",
         "Tags": [
@@ -287,6 +298,19 @@
         "TitleSlug": "find-eventual-safe-states",
         "URI": "./Topological/802.findEventualSafeStates.cpp"
     },
+    "827": {
+        "Difficulty": "Hard",
+        "Tags": [
+            "Array",
+            "Depth-First Search",
+            "Breadth-First Search",
+            "Union Find",
+            "Matrix"
+        ],
+        "Title": "Making A Large Island",
+        "TitleSlug": "making-a-large-island",
+        "URI": "./Connected Components/827.makingALargeIsland.cpp"
+    },
     "947": {
         "Difficulty": "Medium",
         "Tags": [
@@ -318,5 +342,5 @@
             "URI": "./Connected Components/NLC.547.numberOfProvinces.cpp"
         }
     ],
-    "built on": "2024-01-14 19:05:27.389470"
+    "built on": "2024-01-15 18:53:15.930563"
 }
