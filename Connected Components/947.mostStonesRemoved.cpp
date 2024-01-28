@@ -41,7 +41,7 @@ public:
         if ( rank[parentU] < rank[parentV] ) {
             parent[parentU] = parentV;
         }
-        else if ( rank[parentU] < rank[parentV] ) {
+        else if ( rank[parentV] < rank[parentU] ) {
             parent[parentV] = parentU;
         }
         else {
