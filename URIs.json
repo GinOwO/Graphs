@@ -338,9 +338,15 @@
         {
             "Difficulty": "NA",
             "Tags": [],
+            "Title": "mColorability",
+            "URI": "./Coloring/NLC.1.mColorability.cpp"
+        },
+        {
+            "Difficulty": "NA",
+            "Tags": [],
             "Title": "numberOfProvinces",
             "URI": "./Connected Components/NLC.547.numberOfProvinces.cpp"
         }
     ],
-    "built on": "2024-01-28 11:49:45.799675"
+    "built on": "2024-03-16 18:44:41.759909"
 }
