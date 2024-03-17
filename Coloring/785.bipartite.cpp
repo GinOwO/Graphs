@@ -75,7 +75,13 @@ public:
 
 int main( ) {
     Solution s;
-    vector<vector<int>> graph = { {1,3},{0,2},{1,3},{0,2} };
-    cout << s.isBipartite( graph ) << endl;
+    vector<vector<int>> adjList = {
+        { 1, 3 },
+        { 0, 2 },
+        { 1, 3 },
+        { 0, 2 }
+    };
+
+    cout << s.isBipartite( adjList ) << endl;
     return 0;
 }

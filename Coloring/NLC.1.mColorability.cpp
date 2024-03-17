@@ -54,9 +54,14 @@ public:
 
 int main( ) {
     Solution solution;
-    vector<vector<int>> edges = { { 1, 3 }, { 0, 2 }, { 1, 3 }, { 0, 2 } };
+    vector<vector<int>> adjList = {
+        { 1, 3 },
+        { 0, 2 },
+        { 1, 3 },
+        { 0, 2 }
+    };
 
-    cout << solution.isMColorable( edges, 2 ) << endl;
+    cout << solution.isMColorable( adjList, 2 ) << endl;
 
     return 0;
 }
